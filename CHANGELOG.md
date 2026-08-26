@@ -1,5 +1,6 @@
 # Changelog
 
+* Add log when marked for deletion email is sent. PR [#609](https://github.com/TampereHacklab/mulysa/pull/609) by [@Rikukar](https://github.com/Rikukar).
 * Bump h2 from 4.3.0 to 4.4.1. PR [#657](https://github.com/TampereHacklab/mulysa/pull/657) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Bump django from 5.2.15 to 5.2.16. PR [#658](https://github.com/TampereHacklab/mulysa/pull/658) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Bump sqlparse from 0.5.5 to 0.6.0. PR [#659](https://github.com/TampereHacklab/mulysa/pull/659) by [@dependabot[bot]](https://github.com/apps/dependabot).
