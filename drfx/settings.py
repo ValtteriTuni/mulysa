@@ -64,12 +64,15 @@ MATRIX_ACCOUNT_CRETION_URL = "https://chat.hacklab.fi/#/login"
 # Site specific help text for registration
 MATRIX_ACCOUNT_CRETION_HELP = "Choose Continue with Hacklab Finland Keycloack"
 
-# External urls, like links to members guide and rules
+# External urls, like links to members guide, rules and NFC guide
 ASSOCIATION_RULES_URL = (
     "https://tampere.hacklab.fi/pages/yhdistyksen-s%C3%A4%C3%A4nn%C3%B6t/"
 )
 MEMBERS_GUIDE_URL = "https://wiki.tampere.hacklab.fi/member_s_guide"
 GITHUB_URL = "https://github.com/TampereHacklab/mulysa"
+NFC_WIKI_URL = (
+    "https://wiki.tampere.hacklab.fi/jasenen_ohje/ovet#nfc_kortin_rekisteroeinti"
+)
 
 # Application definition
 INSTALLED_APPS = [
@@ -269,9 +272,8 @@ REST_FRAMEWORK = {
 }
 
 # tell all auth to use email as username
-ACCOUNT_AUTHENTICATION_METHOD = "email"
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_LOGIN_METHODS = {"email"}
+ACCOUNT_SIGNUP_FIELDS = ["email*", "password1*", "password2*"]
 OLD_PASSWORD_FIELD_ENABLED = True
 
 LOGGING_CONFIG = None
@@ -383,6 +385,11 @@ CONSTANCE_CONFIG = {
     "PRIVACY_POLICY_URL": (
         PRIVACY_POLICY_URL,
         "Link to privacy policy",
+        str,
+    ),
+    "NFC_WIKI_URL": (
+        NFC_WIKI_URL,
+        "Link to NFC guide",
         str,
     ),
     # Receipt functionality configuration

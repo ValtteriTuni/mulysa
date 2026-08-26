@@ -1,5 +1,35 @@
 # Changelog
 
+* Add log when marked for deletion email is sent. PR [#609](https://github.com/TampereHacklab/mulysa/pull/609) by [@Rikukar](https://github.com/Rikukar).
+* Bump h2 from 4.3.0 to 4.4.1. PR [#657](https://github.com/TampereHacklab/mulysa/pull/657) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django from 5.2.15 to 5.2.16. PR [#658](https://github.com/TampereHacklab/mulysa/pull/658) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump sqlparse from 0.5.5 to 0.6.0. PR [#659](https://github.com/TampereHacklab/mulysa/pull/659) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump aiohttp from 3.14.1 to 3.14.3. PR [#655](https://github.com/TampereHacklab/mulysa/pull/655) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump cryptography from 49.0.0 to 50.0.0. PR [#656](https://github.com/TampereHacklab/mulysa/pull/656) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump setuptools from 82.0.1 to 83.0.0. PR [#654](https://github.com/TampereHacklab/mulysa/pull/654) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* update deps. PR [#652](https://github.com/TampereHacklab/mulysa/pull/652) by [@tswfi](https://github.com/tswfi).
+* Bump aiohttp from 3.13.5 to 3.14.0. PR [#651](https://github.com/TampereHacklab/mulysa/pull/651) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump urllib3 from 2.6.3 to 2.7.0. PR [#649](https://github.com/TampereHacklab/mulysa/pull/649) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump idna from 3.13 to 3.15. PR [#650](https://github.com/TampereHacklab/mulysa/pull/650) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django from 5.2.13 to 5.2.14. PR [#648](https://github.com/TampereHacklab/mulysa/pull/648) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* update everything. PR [#644](https://github.com/TampereHacklab/mulysa/pull/644) by [@tswfi](https://github.com/tswfi).
+* with token. PR [#643](https://github.com/TampereHacklab/mulysa/pull/643) by [@tswfi](https://github.com/tswfi).
+* Bump requests from 2.32.5 to 2.33.0. PR [#639](https://github.com/TampereHacklab/mulysa/pull/639) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django-allauth from 65.13.0 to 65.14.1. PR [#637](https://github.com/TampereHacklab/mulysa/pull/637) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django from 5.2.11 to 5.2.12. PR [#636](https://github.com/TampereHacklab/mulysa/pull/636) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django from 5.2.9 to 5.2.11. PR [#633](https://github.com/TampereHacklab/mulysa/pull/633) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump cryptography from 46.0.2 to 46.0.5. PR [#634](https://github.com/TampereHacklab/mulysa/pull/634) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump filelock from 3.20.0 to 3.20.3. PR [#632](https://github.com/TampereHacklab/mulysa/pull/632) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump virtualenv from 20.35.3 to 20.36.1. PR [#631](https://github.com/TampereHacklab/mulysa/pull/631) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump werkzeug from 3.1.4 to 3.1.5. PR [#630](https://github.com/TampereHacklab/mulysa/pull/630) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump urllib3 from 2.5.0 to 2.6.3. PR [#629](https://github.com/TampereHacklab/mulysa/pull/629) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump aiohttp from 3.13.0 to 3.13.3. PR [#628](https://github.com/TampereHacklab/mulysa/pull/628) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django-allauth from 65.12.0 to 65.13.0. PR [#626](https://github.com/TampereHacklab/mulysa/pull/626) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Mulysa mypages. PR [#580](https://github.com/TampereHacklab/mulysa/pull/580) by [@sbeach92](https://github.com/sbeach92).
+* Bump urllib3 from 2.5.0 to 2.6.0. PR [#625](https://github.com/TampereHacklab/mulysa/pull/625) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump django from 5.2.8 to 5.2.9. PR [#624](https://github.com/TampereHacklab/mulysa/pull/624) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Bump werkzeug from 3.1.3 to 3.1.4. PR [#623](https://github.com/TampereHacklab/mulysa/pull/623) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Add NFC wiki link to user settings page #521. PR [#612](https://github.com/TampereHacklab/mulysa/pull/612) by [@elinahamalainen](https://github.com/elinahamalainen).
 * Bump django from 5.2.7 to 5.2.8. PR [#615](https://github.com/TampereHacklab/mulysa/pull/615) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * Add list of package dependencies for Fedora 42 to README. PR [#608](https://github.com/TampereHacklab/mulysa/pull/608) by [@brndd](https://github.com/brndd).
 * update all dependencies. PR [#590](https://github.com/TampereHacklab/mulysa/pull/590) by [@tswfi](https://github.com/tswfi).
