@@ -528,7 +528,7 @@ msgstr "Tila"
 
 #: www/templates/www/user.html:46
 msgid "Will auto-unsubscribe on expiry"
-msgstr ""
+msgstr "Irtisanotaan automaattisesti erääntyessä"
 
 #: www/templates/www/user.html:51
 msgid "Paid until"
@@ -610,15 +610,6 @@ msgid "Comment"
 msgstr "Kommentti"
 
 #: www/templates/www/user.html:164
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "      <strong>NOTE:</strong> Custominvoices are meant for special "
-#| "situations where you are paying for \n"
-#| "      multiple months using one transaction. We suggest using monthly "
-#| "recurring \n"
-#| "      payments for all regular situations.\n"
-#| "    "
 msgid ""
 "\n"
 "        <strong>NOTE:</strong> Custominvoices are meant for special "
